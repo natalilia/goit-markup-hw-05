@@ -758,4 +758,65 @@ background-color: var(--ocean);
   border-radius: 50%;
   border: 1px solid var(--cornflower);
 
+
 }
+
+.modal-text{
+font-size: 16px;
+width: 100%;
+line-height: 1.28;
+text-align: center;
+padding-top: 72px;
+margin-bottom: 16px;
+filter: drop-shadow(0px 4px 4px
+#00000040);
+}
+.modal-label{
+font-size: 12px;
+line-height: 1;
+color: var(--light-slate);
+display: inline-block;
+}
+
+.modal-container{
+  padding-right: 24px;
+  padding-left: 24px;
+  margin-bottom: 8px;
+
+}
+.modal-input{
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--navy-blue-modal);
+  border-radius: 4px;
+ padding-left: 38px;
+ outline: transparent;
+ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+.modal-input:focus{ 
+border: 1px solid rgba(77, 90, 229, 1);
+}
+
+.modal-input:focus + .input-icon{
+  stroke: var(--iris);
+}
+.modal-input:hover{ 
+  border: 1px solid rgba(77, 90, 229, 1);
+  }
+  
+  .modal-input:hover + .input-icon{
+    stroke: var(--iris);
+  }
+
+  .input-icon{
+    position: absolute;
+    fill:transparent;
+    stroke: var(--navy-blue-modal);
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .input-wraw{
+    position: relative;
+  }
