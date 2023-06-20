@@ -438,6 +438,22 @@
 </li>
     </ul>
 </div>
+<div class="footer-subscribe">
+    <p class="footer-input-text">Subscribe</p>
+    <div class="collect-form">
+    <form class="footer-form">
+        <label for="footer-email" aria-label="footer email"></label>
+        <input type="email" id="footer-email" name="footer-email" class="footer-input" placeholder="E-mail">
+        <button type="submit" class="footer-btn">Subscribe
+            <svg class="footer-icon-subscripe" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram-footer"></use>
+            </svg>
+            
+            </button>
+        </button>
+    </form>
+</div>
+</div>
 </div>
 </footer>
 <div class="backdrop is-hidden" data-modal>
@@ -481,6 +497,26 @@
                     <use href="./images/icons.svg#icon-modal-mail"></use>
                 </svg>
             </div>
+            <div class="input-wraw">
+                <label class="modal-label">Comment</label>
+                <textarea  class="modal-textarea" placeholder="Text input"></textarea>
+                
+            </div>
+            <div class="input-wraw">
+                <input type="checkbox" 
+                name="policy" 
+                id="policy" 
+                class="input-policy visualy-hiden" 
+                value="true"
+                checked
+                />
+                <label for="policy" class="check-text"><span> 
+                    <svg class="check-icon" width="10" height="8">
+                    <use href="./images/icons.svg#icon-modal-policy"></use>
+                </svg></span>I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+
+            </div>
+            <button class="modal-btn-sub" type="submit">Send</button>
             </form>
         </div>
     </div>
