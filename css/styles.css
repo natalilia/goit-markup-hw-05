@@ -888,9 +888,9 @@ border: 1px solid rgba(77, 90, 229, 1);
 
   .input-icon{
     position: absolute;
-    /*---
+
     fill:transparent;
-    stroke: var(--navy-blue-modal);---*/
+    stroke: var(--navy-blue-modal);
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
