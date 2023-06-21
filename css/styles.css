@@ -266,6 +266,7 @@ max-width: 264px;
       letter-spacing: 0.02em; 
       line-height: 1.5;
       color: var(--white);
+      margin-bottom: 16px;
     
     }
     .footer-form { display: flex;
@@ -282,14 +283,15 @@ max-width: 264px;
       width: 264px;
       height: 40px;
       border-radius: 4px;
-      filter: drop-shadow(0px 4px
-      rgba(0, 0, 0, 0.15));
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); 
       border: 1px solid var(--white);
+      color: var(--white);
       background-color: transparent;
       font-size: 12px;
       line-height: 1.5; 
       letter-spacing: 0.04em; 
       padding-left: 16px; 
+
     }
 
     .footer-input::placeholder{
