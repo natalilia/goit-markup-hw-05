@@ -894,7 +894,7 @@ border: 1px solid rgba(77, 90, 229, 1);
     position: absolute;
 
     fill:transparent;
-    stroke: var(--navy-blue-modal);
+    fill: var(--navy-blue-modal);
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
@@ -954,6 +954,9 @@ color: var(--light-slate);
   justify-content: center;
   fill: transparent;
 }
+.check-decor-icon:focus{
+  
+}
 
   .check-text a{
     color: var(--iris);
@@ -963,23 +966,24 @@ color: var(--light-slate);
   color: var(--iris)
 }
 
+
   .check-text span{
     width: 16px;
     height: 16px;
-    border: 1px solid var(--navy-blue);
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     margin-right: 8px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
     
   }
-.check-decor-icon{
+  .input-policy:checked + .check-text >.check-decor-icon{
     background-color: var(--ocean);
     border: none;
     fill: var(--cloud);
-  } 
+  }
   .modal-btn-sub{ 
     min-width: 169px;
     height: 56px;
@@ -1000,16 +1004,4 @@ color: var(--light-slate);
     margin-right: auto;
 
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+.visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden; }
