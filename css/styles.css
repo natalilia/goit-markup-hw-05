@@ -261,22 +261,23 @@ max-width: 264px;
       
     }
     .footer-input-text {
-      font-weight: 500px;
+      font-weight: 500;
       font-size: 16px;
+      letter-spacing: 0.02em; 
       line-height: 1.5;
       color: var(--white);
-      margin-bottom: 16px;
+    
     }
-    .footer-form {
+    .footer-form { display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;}
     
       
-      .collect-form{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 24px;
+      .footer-subscribe{
+       
       }
-    }
+    
     .footer-input {
       width: 264px;
       height: 40px;
@@ -285,6 +286,10 @@ max-width: 264px;
       rgba(0, 0, 0, 0.15));
       border: 1px solid var(--white);
       background-color: transparent;
+      font-size: 12px;
+      line-height: 1.5; 
+      letter-spacing: 0.04em; 
+      padding-left: 16px; 
     }
 
     .footer-input::placeholder{
