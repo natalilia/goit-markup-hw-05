@@ -272,12 +272,17 @@ max-width: 264px;
     .footer-form { display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 24px;}
-    
+      gap: 24px;
+    }
+    .footer-form :hover{
+      border-color: var(--iris);
+    }
+
+    .footer-form :focus{
+      border-color: var(--iris);
+    }
       
-      .footer-subscribe{
-       
-      }
+      .footer-subscribe{}
     
     .footer-input {
       width: 264px;
